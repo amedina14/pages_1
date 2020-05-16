@@ -1,0 +1,95 @@
+/*Selector de Universal*/
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*Selector de Etiqueta*/
+h1{
+    background: brown;
+    color: aqua;
+    padding: 10px;
+}
+a{
+    font-size: 18px;
+    color: steelblue;
+    text-decoration: none;
+}
+body{
+    background-color: darkolivegreen;
+}
+footer a{
+    color: rgb(222, 225, 65);
+}
+
+/*Selector de ID*/
+#description,
+#titulo{
+    border: 5px solid violet ;
+    padding: 15px;
+}
+#titulo{
+    background: steelblue;
+    color: aqua;
+    border: 1px dashed white;    
+}
+
+/*Selector de Clase*/
+.parrafo1{
+    background-color: yellow;
+    padding: 15px;
+    font-style: italic;
+    font-weight: bold;
+    /*text-decoration: underline;*/
+}
+.parrafo2{
+    background-color: tomato;
+    padding: 15px;
+    color: white
+}
+.parrafo3{
+    background-color: teal;
+    padding: 15px;
+    color: white
+}
+#usuario form{
+    background: wheat;
+    border: 5px solid blue;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 15px;
+}
+#usuario form *{
+    display: block
+}
+
+/*Selector de Atributo*/
+input[type="text"]{
+    margin-bottom: 15px;
+    padding: 5px;
+    width: 300px;
+    background-color: yellowgreen;
+}
+input[type="submit"]{
+    background: royalblue;
+    color: wheat;
+    padding: 10px;
+    font-size: 15px;
+    text-transform: uppercase;
+    border: 3px solid turquoise;
+    cursor: pointer;
+}
+
+/*Selector hijo*/
+#menu > li > a{
+    color: springgreen;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+/*Prioridad en CSS*/
+#saludo h1{
+    background: green !important;
+}h1{
+    background: purple !important;
+    color: yellow;
+}
