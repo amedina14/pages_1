@@ -1,2 +1,2 @@
-# pages_1
+# Readme
 for general pages html, css, etc.
