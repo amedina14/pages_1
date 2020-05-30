@@ -1,2 +1,2 @@
 # Readme
-for general pages html, css, etc.
+These are general pages html, css, to test git commands on repo.
